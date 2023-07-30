@@ -1,0 +1,124 @@
+
+.feed-bar {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+
+
+.feedbar-box {
+    display: flex;
+    flex-direction: column;
+    top: 25%;
+    left: 25%;
+    bottom: 25%;
+    right: 25%;
+    width: 100%;
+    height: 25%;
+    padding: 5px;
+    border-bottom: 2px solid rgb(221, 165, 59);
+}
+.feedbar-box button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-left: 90%;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(250, 175, 36);
+    border-radius: 15px;
+    font-size: 1rem;
+    transition: background-color 0.15s;
+}
+
+.feedbar-box button:hover {
+    background-color: rgba(250, 175, 36, 0.9);
+    box-shadow: 3px 3px rgba(250, 175, 36, 0.2);
+}
+
+.feedbar-box textarea {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+textarea {
+    resize: none;
+    padding: 2px;
+    font-size: 20px;
+    border: none;
+}
+
+.feed-modal img {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 25px;
+    width: 50px;
+    background-color: rgb(219, 155, 35);
+}
+
+.feed-modal button {
+    cursor: pointer;
+}
+
+
+.feed {
+    display: flex;
+    flex-direction: column;
+    /* background-color: rgb(236, 229, 229); */
+    background-color: rgb(247, 247, 241);
+    height: 100%;
+    width: 100%;
+}
+
+.feed .feed-output {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247, 247, 241);
+    align-items: center;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border-top: 2px solid rgb(219, 155, 35);
+    border-bottom: 2px solid rgb(219, 155, 35);
+}
+
+.feed-output .title, .link, .content {
+    width: 100%;
+}
+
+.feed-output .title {
+    display: flex;
+    border-bottom: 1px solid orange;
+    align-items: center;
+    font-size: 1.25rem;
+    font-weight: 700;
+    padding: 17px 2px;
+}
+
+.feed-output .content {
+    display: flex;
+    padding: 3px;
+    font-size: 25px;
+}
+
+.feed-output .link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(235, 194, 118);
+    margin: 3px;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 2px 3px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feed-output .copy-btn {
+    margin: 5px 10px 5px 0;
+}

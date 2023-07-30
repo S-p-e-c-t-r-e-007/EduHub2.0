@@ -1,0 +1,58 @@
+/* This file contains sign-up container styles */
+
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    text-align: center;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid rgb(236, 130, 59);
+}
+
+.signup-container {
+    display: none;
+}
+.signup-container div {
+    padding: 5px;
+}
+
+
+
+.signup-container header {
+    margin: 0 75px;
+    margin-bottom: 15px;
+    font-size: 5rem;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(224, 114, 40);
+}
+
+.signup-container div input {
+    border: none;
+    width: 20rem;
+    height: 1.7rem;
+    padding: 2px;
+    margin: 6px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(224, 114, 40);
+    box-shadow: 3px 6px rgba(224, 114, 10, 0.15);
+    background-color: rgb(255, 255, 255);
+}
+
+.signup-container button:hover {
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 1.25rem;
+}
+
+.signin-btn { 
+    padding: 5px 15px;
+    background-color: rgb(235, 107, 61);
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}

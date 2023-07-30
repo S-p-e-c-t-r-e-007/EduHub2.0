@@ -1,0 +1,94 @@
+/* This file contains log-in container style */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    font-family: sans-serif;
+    background-color:  rgb(236, 130, 59) ;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    background-color: azure;
+    text-align: center;
+    margin: 15px;
+    font-size: 75px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid rgb(236, 130, 59);
+}
+
+.login-container header {
+    margin: 0 75px;
+    font-size: 5rem;
+    font-weight: bolder;
+    border-bottom: 2px solid rgb(224, 114, 40);
+}
+
+
+
+.login-container input {
+width: 15rem;
+height: 2.25rem;
+}
+
+.login-container {
+    padding: 5px;
+}
+
+.login-container div input {
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: left;
+    border-bottom: 1px solid rgb(224, 114, 40);
+    box-shadow: 3px 6px rgba(224, 114, 10, 0.15);
+    background-color: rgb(255, 255, 255);
+}
+
+
+#login-btn {
+    padding: 10px 25px;
+    background-color: rgb(235, 107, 61);
+    border: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+#login-btn:hover {
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.15);
+    font-size: 1.25rem;
+}
+
+.login-container p {
+    font-size: 1.5rem;
+}
+
+#signup-ref-btn {
+    border: none;
+    font-size: 1.5rem;
+    background-color: transparent;
+    color:  rgb(235, 107, 61);
+    transition: font-size 0.15s ease ;
+    cursor: pointer;
+}
+
+
+
+#signup-ref-btn:hover {
+    font-size: 1.55rem;
+}

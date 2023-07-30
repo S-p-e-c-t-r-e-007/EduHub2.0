@@ -1,3 +1,3 @@
-# EduHub2.0
+This is again a new version of my web application EduHub 
 
-Created a Homepage. Some things are not working from the previous ones
+I kinda see good improvement in here.
